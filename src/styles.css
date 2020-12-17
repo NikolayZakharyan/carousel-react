@@ -1,0 +1,90 @@
+.carousel-wrapper > img {
+  width: 600px;
+  height: 400px;
+}
+
+.carousel-wrapper {
+  /* position: relative; */
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+
+}
+
+.prev-div {
+  /* position: absolute; */
+  width: 100px;
+  height: 100px;
+  border: 4px solid red;
+  top: 200px;
+  left: 30px;
+  z-index: 10;
+  user-select: none;
+  cursor: pointer;
+}
+
+.next-div {
+  /* position: absolute; */
+  width: 100px;
+  height: 100px;
+  border: 4px solid red;
+  /* top: 200px; */
+  right: 30px;
+  z-index: 10;
+  user-select: none;
+  cursor: pointer;
+  
+}
+
+
+.hidden {
+  display: none;
+}
+
+.visibile {
+  display: inline;
+}
+
+.small-div {
+  width: 100px;
+  height: 400px;
+  /* display: inline; */
+}
+
+
+.small-Img >img {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  cursor: pointer;
+
+}
+
+
+.small-Img {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  overflow: hidden;
+}
+
+.small-correct {
+  border: 4px solid red;
+}
+
+.input {
+  /* border: 4px solid red; */
+  text-align: center;
+  margin-left: 40px;
+}
+
+.input > input{
+  /* border: 4px solid red; */
+  
+  margin-right: 40px;
+}
